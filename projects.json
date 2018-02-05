@@ -1,0 +1,71 @@
+{
+	"projects": [
+
+		{
+			"name": "Invoice Calculator",
+			"projectDescription": "jkdsblvds",
+            "technologies": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "Bootsrap",
+                "html2canvas",
+                "jsPDF"
+            ],
+            "learned": "hsagoyuagoygsay sakha",
+            "future": "kjab;ucabisipbuvisa",
+            "live" : "https://en.wikipedia.org/wiki/Main_Page",
+            "code" : "https://en.wikipedia.org/wiki/Main_Page"
+		},
+
+		{
+			"name": "Second Project",
+			"projectDescription": "jkdsblvds",
+            "technologies": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "Bootsrap",
+                "html2canvas",
+                "jsPDF"
+            ],
+            "learned": "hsagoyuagoygsay sakha",
+            "future": "kjab;ucabisipbuvisa",
+            "live" : "http://wikipeadia.com",
+            "code" : "http://github.com"
+		},
+
+		{
+			"name": "Third Project",
+			"projectDescription": "jkdsblvds",
+            "technologies": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "Bootsrap",
+                "html2canvas",
+                "jsPDF"
+            ],
+            "learned": "hsagoyuagoygsay sakha",
+            "future": "kjab;ucabisipbuvisa",
+            "live" : "http://wikipeadia.com",
+            "code" : "http://github.com"
+		},
+        {
+			"name": "Fourth Project",
+			"projectDescription": "jkdsblvds",
+            "technologies": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "Bootsrap",
+                "html2canvas",
+                "jsPDF"
+            ],
+            "learned": "hsagoyuagoygsay sakha",
+            "future": "kjab;ucabisipbuvisa",
+            "live" : "http://wikipeadia.com",
+            "code" : "http://github.com"
+		}
+	]
+}
