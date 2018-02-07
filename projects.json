@@ -3,7 +3,7 @@
 
 		{
 			"name": "Invoice Calculator",
-			"projectDescription": "jkdsblvds",
+			"projectDescription": "This project is an invoice calculator which allows users to chose a text rate, calculate VAT and total left and download the invoice as PDF file",
             "technologies": [
                 "HTML5",
                 "CSS3",
@@ -12,8 +12,8 @@
                 "html2canvas",
                 "jsPDF"
             ],
-            "learned": "hsagoyuagoygsay sakha",
-            "future": "kjab;ucabisipbuvisa",
+            "learned": "How to work with JSON files, html2canvas and jsPDF",
+            "future": "Extracting PDF file from desired part of the HTML body, wihtout using html2canvas",
             "live" : "https://en.wikipedia.org/wiki/Main_Page",
             "code" : "https://en.wikipedia.org/wiki/Main_Page"
 		},
