@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Invoice Calculator</title>
+    <link rel="shortcut icon" href="img/invoice.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<header>
+<div class="container-fluid mainHeader rounded text-center" id="hide2">
+    <h4>Invoice Calculator</h4>
+</div>
+     
+</header>
+    
+<div id="toPdf">
+
+<div class="container centered rounded">
+   
+<p>Invoice From</p>
+<div class="row">
+
+	<div class="col-sm-5">
+		<div class="form-group row">
+				<label for="address-input" class="col-5 col-form-label">Address</label>
+						<div class="col-7">
+						<input class="form-control" type="text" value="73 Melrose Avenue" id="address-input">
+						</div>
+        </div>
+        <div class="form-group row">
+				 <label for="town1-input" class="col-5 col-form-label">Town</label>
+						<div class="col-7">
+						<input class="form-control" type="text" value="London" id="town1-input">
+						</div>
+        </div>
+        <div class="form-group row">
+				 <label for="postcode1-input" class="col-5 col-form-label">Postcode</label>
+						<div class="col-7">
+						<input class="form-control" type="text" value="CR4 2EH" id="postcode1-input">
+						</div>
+			</div>
+        <div class="form-group row">
+						<label for="phone-input" class="col-5 col-form-label">Tel:</label>
+						<div class="col-7">
+						<input class="form-control" type="text" value="07830531436" id="phone-input">
+						</div>
+        </div>
+        <div class="form-group row">
+						<label for="email-input" class="col-5 col-form-label">Email:</label>
+						<div class="col-7">
+						<input class="form-control" type="text" value="velpr.vd@gmail.com" id="email-input">
+						</div>
+        </div>
+    </div>
+
+
+		<div class="col-sm-5">
+        <div class="form-group row">
+				<label for="address-input" class="col-5 col-form-label">Name</label>
+						<div class="col-7">
+						<input class="form-control" type="text" value="Toshko Ltd" id="address-input">
+						</div>
+        </div>
+		
+        <div class="form-group row">
+						<label for="utr-input" class="col-5 col-form-label">UTR:</label>
+						<div class="col-7">
+						<input class="form-control" type="text" value="5111012031" id="utr-input">
+						</div>
+        </div>
+        <div class="form-group row">
+						<label for="utr-input" class="col-5 col-form-label">Company N:</label>
+						<div class="col-7">
+						<input class="form-control" type="text" value="1012031" id="utr-input">
+						</div>
+        </div>
+            <div class="form-group row">
+						<label for="invoiceN-input" class="col-5 col-form-label">VAT Registration N:</label>
+						<div class="col-7">
+						<input class="form-control" type="text" id="invoiceN-input">
+						</div>
+        </div>
+        <div class="form-group row">
+						<label for="invoiceD-input" class="col-5 col-form-label">Tax Rate:</label>
+						<div class="col-7">
+						<select id="selectRate" class="form-control">
+							<option value="0">Rate:</option>
+							<option value="1">0&#37;</option>
+							<option value="2">20&#37;</option>
+						</select>
+						</div>
+        </div>
+		</div>
+    
+    
+	</div>
+    </div>
+	
+<div class="container centered rounded">
+		<p>Invoice To</p> 
+		<div class="row">
+            
+		<div class="col-sm-5">
+		<div class="form-group row">
+				<label for="name-input" class="col-5 col-form-label">Name</label>
+						<div class="col-7">
+						<select id="selectName" class="form-control" onchange="showAddress()">
+							<option value="choose">Company name</option>
+							<!--<option value="Fireclad Ltd"></option>
+							<option value="Jarvis Ltd"></option>
+							<option value="MG Drywall"></option>-->
+						</select>
+						</div>
+            </div>
+            <div class="form-group row">
+				<label for="street-input" class="col-5 col-form-label">Street</label>
+						<div class="col-7">
+						<input class="form-control" type="text" id="street-input">
+						</div>
+            </div>
+            <div class="form-group row">
+				 <label for="town-input" class="col-5 col-form-label">Town</label>
+						<div class="col-7">
+						<input class="form-control" type="text" id="town-input">
+						</div>
+            </div>
+            <div class="form-group row">
+				 <label for="postcode-input" class="col-5 col-form-label">Postcode</label>
+						<div class="col-7">
+						<input class="form-control" type="text" id="postcode-input">
+						</div>
+			</div>
+		</div>
+		<div class="col-sm-5">
+		<div class="form-group row">
+						<label for="invoiceN-input" class="col-5 col-form-label">Invoice N:</label>
+						<div class="col-7">
+						<input class="form-control" type="text" id="invoiceN-input">
+						</div>
+            </div>
+            <div class="form-group row">
+						<label for="invoiceD-input" class="col-5 col-form-label">Invoice Date:</label>
+						<div class="col-7">
+                        <input class="form-control" type="text" id="invoiceD-input">
+						</div>
+            </div>
+            <div class="form-group row">
+						<label for="weekEnd-input" class="col-5 col-form-label">W/E Date:</label>
+						<div class="col-7">
+						<input class="form-control" type="text" id="weekEnd-input">
+						</div>
+            </div>
+            <div class="form-group row">
+						<label for="job-input" class="col-5 col-form-label">JOB NAME:</label>
+						<div class="col-7">
+						<input class="form-control" type="text" id="job-input">
+						</div>
+			</div>
+		</div>
+	</div>
+
+
+    </div>
+
+    <div class="container centered rounded">
+
+ <div id="table">
+	<table class="table table-hover">
+	<thead>
+		<tr>
+			<th>DESCRIPTION</th>
+			<th class=>AMOUNT</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr class="description">
+			<td class="text-left">Drylining Services</td>
+			<td></td>
+		</tr>
+
+		<tr>
+			<td>Labor Total</td>
+			<td> 
+                    <input class="form-control"  type="text" id="laborTotal">
+			</td>
+		</tr>
+
+		<tr>
+			<td>VAT</td>
+			<td class="text-left" id="vat"></td>
+		</tr>
+
+		<tr>
+			<td>Sub Total</td>
+			<td class="text-left" id="subtotal"></td>
+		</tr>
+
+		<tr>
+			<td>Less 20&#37; CIS</td>
+			<td class="text-left" id="less"></td>
+		</tr>
+
+		<tr>
+			<td>Total Due</td>
+			<td class="text-left" id="totalDue"></td>
+		</tr>
+
+	</tbody>
+</table>
+
+ </div>
+    </div>
+    </div>
+<div id="hide" class="text-center">
+<button class="btn btn-success" onclick="calculateInvoice(laborTotal.value)">Calculate</button>
+<button class="btn btn-success hide" onclick="htmlToPdf()" >Download PDF</button>
+<button class="btn btn-success" id = "chartButton" data-toggle="modal" data-target="#myChart" >Chart</button>
+</div>
+    
+
+<!-- Modal-->
+<div class="modal fade" id="myChart" tabindex="-1" role="dialog" aria-labelledby="myChartLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="myChartLabel"></h5>
+          
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body centered">
+        
+        <div id="chartContainer" style="height: 400px; width: 90%;"></div>
+          <div class="col-md-3">
+
+            
+            
+        </div>
+      </div>
+      <div class="modal-footer">
+          <select id="chartType"  class="btn btn-success alignR"> 
+            <option value="pie">Pie</option>
+            <option value="doughnut">Doughnut</option>
+            </select>
+        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+	<script src="scriptjson.js"></script>
+
+</body>
+</html>

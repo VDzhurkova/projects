@@ -1,0 +1,31 @@
+{
+	"company": [
+
+		{
+			"name": "Fireclad Ltd",
+			"address": {
+				"street": "120 Old Broad Street",
+				"city": "London",
+				"postcode": "EC2N 1AR"
+			}
+		},
+
+		{
+			"name": "Jarvis Ltd",
+			"address": {
+				"street": "10 Artiellery Passage",
+				"city": "London",
+				"postcode": "E1 7LU"
+			}
+		},
+
+		{
+			"name": "MG Drywall",
+			"address": {
+				"street": "14 Finchley Park",
+				"city": "London",
+				"postcode": "N12 9JN"
+			}
+		}
+	]
+}
