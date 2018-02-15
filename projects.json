@@ -19,18 +19,17 @@
 		},
 
 		{
-			"name": "Second Project",
-			"projectDescription": "jkdsblvds",
+			"name": "Demo Multiple Table Database",
+			"projectDescription": "This project is a demo for Cleaner and Customer database, which allows users to see list of cleaners/customers edit, add and delete records, see cleaners schedule and calculate weekly payment",
             "technologies": [
-                "HTML5",
+                "C#",
                 "CSS3",
                 "JavaScript",
                 "Bootsrap",
-                "html2canvas",
-                "jsPDF"
+                "ASP.NET MVC",
             ],
-            "learned": "hsagoyuagoygsay sakha",
-            "future": "kjab;ucabisipbuvisa",
+            "learned": "ASP.NET MVC",
+            "future": "work further on the dynamic schedule view",
             "live" : "http://wikipeadia.com",
             "code" : "http://github.com"
 		},
