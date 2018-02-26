@@ -35,18 +35,15 @@
 		},
 
 		{
-			"name": "Third Project",
-			"projectDescription": "jkdsblvds",
+			"name": "Responsitive Webside",
+			"projectDescription": "Webside for the Cleaning Agency - HighLine Domestic Services",
             "technologies": [
                 "HTML5",
                 "CSS3",
-                "JavaScript",
-                "Bootsrap",
-                "html2canvas",
-                "jsPDF"
+                "JavaScript"
             ],
-            "learned": "hsagoyuagoygsay sakha",
-            "future": "kjab;ucabisipbuvisa",
+            "learned": "CSS3, GridView and @media queries",
+            "future": "still in progress..",
             "live" : "http://wikipeadia.com",
             "code" : "http://github.com"
 		},
