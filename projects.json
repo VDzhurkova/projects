@@ -14,7 +14,7 @@
             ],
             "learned": "How to work with JSON files, html2canvas and jsPDF",
             "future": "Extracting PDF file from desired part of the HTML body, wihtout using html2canvas",
-            "live" : "https://en.wikipedia.org/wiki/Main_Page",
+            "live" : "http://velislavadzhurkova.co.uk/calculator/index.html",
             "code" : "https://github.com/VDzhurkova/projects/tree/master/InvoiceCalculator"
 		},
 
@@ -44,7 +44,7 @@
             ],
             "learned": "CSS3, GridView and @media queries",
             "future": "still in progress..",
-            "live" : "http://wikipeadia.com",
+            "live" : "http://velislavadzhurkova.co.uk/website/index.html",
             "code" : "http://github.com"
 		},
         {
