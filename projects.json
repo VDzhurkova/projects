@@ -60,7 +60,7 @@
                 
             ],
             "learned": "MVC",
-            "future": "extent admin layout and give the guest the oportunety to see purchased order with reference number",
+            "future": "extend admin layout - give access to customers details and give the guest the oportunety to see purchased order with reference number",
             "live" : "http://vdzhurkova.com",
             "code" : "https://github.com/VDzhurkova/JeansShop"
 		}
