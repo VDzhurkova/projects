@@ -31,7 +31,7 @@
             "learned": "ASP.NET MVC",
             "future": "work further on the dynamic schedule view",
             "live" : "http://demodb.vdzhurkova.com",
-            "code" : "http://github.com"
+            "code" : "https://github.com/VDzhurkova/CleanerCustomerDatabase"
 		},
 
 		{
@@ -48,20 +48,21 @@
             "code" : "http://github.com"
 		},
         {
-			"name": "Fourth Project",
-			"projectDescription": "jkdsblvds",
+			"name": "Jeans Shop",
+			"projectDescription": "E-Commerce Website. The customer can create personal account or checkout as guest, can select items, view shopping bag, view purchased orders, change account details. There is also admin layout - the admin can delete, edit and create new products, view customer orders, mark order as dispatched and delete shipped orders ",
             "technologies": [
+		"MVC ASP.NET",
                 "HTML5",
                 "CSS3",
                 "JavaScript",
-                "Bootsrap",
-                "html2canvas",
-                "jsPDF"
+                "Bootsrap"
+                
+                
             ],
-            "learned": "hsagoyuagoygsay sakha",
-            "future": "kjab;ucabisipbuvisa",
-            "live" : "http://wikipeadia.com",
-            "code" : "http://github.com"
+            "learned": "MVC",
+            "future": "extent admin layout and give the guest the oportunety to see purchased order with reference number",
+            "live" : "http://vdzhurkova.com",
+            "code" : "https://github.com/VDzhurkova/JeansShop"
 		}
 	]
 }
