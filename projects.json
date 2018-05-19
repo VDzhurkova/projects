@@ -63,6 +63,24 @@
             "future": "extend admin layout - give access to customers details and give the guest the oportunety to see purchased order with reference number",
             "live" : "http://vdzhurkova.com",
             "code" : "https://github.com/VDzhurkova/JeansShop"
+		},
+		 {
+			"name": "Payslip Creator",
+			"projectDescription": "Allows user to create, edit , delete workers. Add monthly payments, saving payslips into a database - view and download pdf files",
+            "technologies": [
+		"MVC ASP.NET",
+                "HTML5",
+                "CSS3",
+                "Rotativa",
+                "Bootsrap"
+                
+                
+            ],
+            "learned": "MVC, Rotativa",
+            "future": "In progress",
+            "live" : "http://payslip.vdzhurkova.com/",
+            "code" : "https://github.com/VDzhurkova"
 		}
+		
 	]
 }
